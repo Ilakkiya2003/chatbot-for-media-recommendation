@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+h2::after{
+    content: "";
+    color: tomato;
+    width: 5px;
+    height: 5px;
+}
+body{
+    background: url(WhatsApp\ Image\ 2023-09-12\ at\ 11.06.39\ AM\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+    
+}
+
+p{
+    font-size: 40px;
+}
+.box{
+    width: 450px;
+    height: 560px;
+    display: flex;
+   gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background: url(welcome.jpeg);
+    /* background-color: aquamarine; */
+}
+.box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.music{
+    background:url(music/music-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   
+}
+.movie{
+    background: url(movies/movie.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    
+    /* height: 100vh; */
+}
+.love{
+    background: url(movies/love.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vibe{
+    background: url(music/vibe-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-size: larger;
+    
+}
+.vibe a{
+    font-size: larger;
+}
+.anime{
+    background-image: linear-gradient(to bottom, #0074e4, #0056b3);
+    background: url(movies/anime.jpeg);
+    color: black;
+}
+.anime h2{
+    color: black;
+    font-size: 30px;
+}
+.anime a{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.btn {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  font-size: larger;
+  font-weight: bolder;
+  font-size: 50px;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 50%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+.bts{
+    background: url(music/bts.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    position: relative;
+}
+.bts::-webkit-scrollbar{
+    width: 0;
+    }
+.bts h2{
+    top:0;
+    position: absolute;
+}
+.bts ol{
+    position:absolute;
+    top:25px;
+}
+
+
+
+
+.horror{
+    background: url(movies/horror.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    font-size: xx-large;
+
+}
+.horror a{
+    color: white;
+    font-size: 28px ;
+}
+.lofi{
+    background: url(music/SL-111121-46670-60.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    position: relative;
+}
+.lofi::-webkit-scrollbar{
+    width: 0;
+    }
+.lofi h2{
+    top:0;
+    position: absolute;
+}
+.lofi ol{
+    position:absolute;
+    top:25px;
+}
+.tentacion{
+    background: url(music/tentaction.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-size: x-large;
+    color: white;
+}
+.tentacion a{
+    color: white;
+    font-size: larger;
+}
+.laugh{
+    background: url(music/laugh-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: x-large;
+    
+}
+.laugh a{
+    font-size: larger;
+    color: white;
+}
+
+.tvshows{
+    background: url(music/tvshows-bg.jpeg);
+   font-size: xx-large;
+}
+
+.tvshows a{
+    font-size: 28px;
+    color: black;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+label{
+    
+    font-size: 20px;
+}
+ol{
+    text-align: left;
+    gap:5px;
+}
+li{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+form{
+   padding: 30px; 
+}
